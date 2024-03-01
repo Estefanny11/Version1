@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="app_name">Version1</string>
+
+    <!-- menu -->
+    <string name="title_home">Boton</string>
+    <string name="title_dashboard">Perfil</string>
+    <string name="title_notifications">Acoso</string>
+    <string name="title_cerrar">Cerrar Sesion</string>
+
+    <!-- entrada -->
+
+    <string name="correo">Ingresar Correo</string>
+    <string name="contraseña">Ingresar Contraseña</string>
+    <string name="Recuerdame">Recuerdame</string>
+    <string name="btnEntrar">ENTRAR</string>
+    <string name="olvidaste">¿Olvidaste la Contraseña?</string>
+    <string name="registrar">Registrate</string>
+
+    <!-- Recuperar -->
+    <string name="btn_volver_inicio">Volver a la pagina de Inicio</string>
+
+    <!-- Registro -->
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="identificacion">Identificacion</string>
+    <string name="correoR">Correo</string>
+    <string name="contraseñaR">Contraseña</string>
+    <string name="btnregistro">REGISTRAR</string>
+    <string name="btn_ya_cuenta">Ya tienes cuenta</string>
+
+
+
+</resources>

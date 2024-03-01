@@ -1,0 +1,15 @@
+<!-- res/drawable/custom_edittext.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fondo blanco -->
+    <solid android:color="#FFFFFF" />
+
+    <!-- Contorno rojo -->
+    <stroke
+        android:width="2dp"
+        android:color="#FF0000" />
+
+    <!-- Esquinas redondeadas -->
+    <corners android:radius="8dp" />
+</shape>
+
+

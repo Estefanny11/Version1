@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo2"
+        tools:context=".RegistrarActivity">
+
+
+        <EditText
+            android:id="@+id/txtnombre"
+
+
+            android:layout_width="251dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginRight="85dp"
+            android:backgroundTint="@android:color/transparent"
+
+
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="@string/nombre"
+            android:textColor="#9F715D"
+            android:textColorHighlight="#9F715D"
+            android:textColorHint="#9F715D"
+            android:textColorLink="#9F715D"
+            android:textSize="20sp"
+
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.145" />
+
+        <EditText
+            android:id="@+id/txtapellido"
+            android:layout_width="251dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginRight="85dp"
+            android:backgroundTint="@android:color/transparent"
+
+
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="@string/apellido"
+            android:textColor="#9F715D"
+            android:textColorHighlight="#9F715D"
+            android:textColorHint="#9F715D"
+            android:textColorLink="#9F715D"
+
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/identicacion"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.905" />
+
+        <EditText
+            android:id="@+id/identicacion"
+
+            android:layout_width="251dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginRight="85dp"
+            android:backgroundTint="@android:color/transparent"
+
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="@string/identificacion"
+            android:textColor="#9F715D"
+            android:textColorHighlight="#9F715D"
+            android:textColorHint="#9F715D"
+            android:textColorLink="#9F715D"
+
+            android:textSize="20sp"
+
+            app:layout_constraintBottom_toTopOf="@+id/txtcorreo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.93" />
+
+        <EditText
+
+            android:id="@+id/txtcorreo"
+            android:layout_width="251dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginRight="85dp"
+            android:backgroundTint="@android:color/transparent"
+
+            android:fontFamily="casual"
+
+            android:hint="@string/correoR"
+            android:textColor="#9F715D"
+            android:textColorHighlight="#9F715D"
+            android:textColorHint="#9F715D"
+            android:textColorLink="#9F715D"
+            android:textSize="20sp"
+
+
+            app:layout_constraintBottom_toTopOf="@+id/editTextFechaNacimiento"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.525"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.947" />
+
+        <EditText
+            android:id="@+id/editTextFechaNacimiento"
+            android:layout_width="251dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginRight="85dp"
+            android:backgroundTint="@android:color/transparent"
+
+            android:clickable="true"
+            android:ems="10"
+            android:focusable="false"
+            android:fontFamily="casual"
+            android:hint="Fecha de Nacimiento"
+            android:textColor="#9F715D"
+
+            android:textColorHighlight="#9F715D"
+            android:textColorHint="#9F715D"
+            android:textColorLink="#9F715D"
+            android:textSize="20sp"
+
+
+            app:layout_constraintBottom_toTopOf="@+id/editTextGenero"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.468"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.964" />
+
+        <EditText
+            android:id="@+id/editTextGenero"
+            android:layout_width="251dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginRight="85dp"
+            android:backgroundTint="@android:color/transparent"
+
+            android:clickable="true"
+            android:focusable="false"
+            android:fontFamily="casual"
+
+            android:hint="Género"
+            android:textColor="#9F715D"
+            android:textColorHighlight="#9F715D"
+            android:textColorHint="#9F715D"
+            android:textColorLink="#9F715D"
+            android:textSize="20sp"
+
+
+            app:layout_constraintBottom_toTopOf="@+id/Contraseña"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.962" />
+
+        <EditText
+
+            android:id="@+id/Contraseña"
+            android:layout_width="251dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginRight="85dp"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="@string/contraseñaR"
+            android:ems="10"
+
+            android:fontFamily="casual"
+
+            android:inputType="textPassword"
+            android:textColor="#9F715D"
+            android:textColorHighlight="#9F715D"
+            android:textColorHint="#9F715D"
+            android:textColorLink="#9F715D"
+            android:textSize="20sp"
+
+
+            app:layout_constraintBottom_toTopOf="@+id/ContraseñaR"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.963" />
+
+        <EditText
+            android:id="@+id/ContraseñaR"
+            android:layout_width="251dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginRight="85dp"
+            android:backgroundTint="@android:color/transparent"
+
+
+            android:ems="10"
+
+            android:fontFamily="casual"
+            android:hint="@string/contraseñaR"
+            android:inputType="textPassword"
+            android:textColor="#9F715D"
+            android:textColorHighlight="#9F715D"
+            android:textColorHint="#9F715D"
+            android:textColorLink="#9F715D"
+            android:textSize="20sp"
+
+            app:layout_constraintBottom_toTopOf="@+id/btn_registro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.964" />
+
+        <Button
+            android:id="@+id/btn_registro"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="251dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginRight="85dp"
+            android:background="@drawable/borderboton"
+            android:backgroundTint="#A5775A"
+            android:fontFamily="casual"
+            android:text="@string/btnregistro"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#9F715D"
+            android:textColorHint="#9F715D"
+            android:textColorLink="#9F715D"
+            android:textSize="20sp"
+
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/btn_ya_tiene_cuenta"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.96" />
+
+        <Button
+            android:id="@+id/btn_ya_tiene_cuenta"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/btn_ya_cuenta"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
